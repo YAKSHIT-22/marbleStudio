@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="h-screen relative flex items-center justify-center">
       <div className="absolute w-full z-[-1] h-screen scale-x-[-1]">
-        <video src={video} alt="video" className="w-full h-full object-cover aspect-video" loop autoPlay={true}/>
+        <video src={video} alt="video" className="w-full h-full object-cover aspect-video" muted loop autoPlay controls = ''/>
       </div>
       <div className="flex items-center justify-center">
         <div className="flex items-center justify-center">
