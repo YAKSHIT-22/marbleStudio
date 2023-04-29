@@ -3,7 +3,7 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [navOpen, setNavOpen] = React.useState(true);
+  const [navOpen, setNavOpen] = React.useState(false);
   return (
     <header className="w-full fixed top-0 bg-transparent font-primary font-medium flex items-center z-[2] justify-center">
       <nav className="w-full relative flex items-center max-w-screen-2xl mx-auto justify-center">
