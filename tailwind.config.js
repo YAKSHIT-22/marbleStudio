@@ -34,10 +34,14 @@ module.exports = {
       height: {
         128: "32rem",
       },
+      fontFamily:{
+        'primary': ['Space Grotesk','sans-serif'],
+        'secondary': ['Hellix', 'helvetica' , 'arial' , 'sans-serif'],
+      },
 	  backgroundImage: {
       
-      video: "url('./assets/video.mp4')",
-
+      'navbar': "url('./assets/nav-mobile.png')",
+      
 	  }
     },
   },

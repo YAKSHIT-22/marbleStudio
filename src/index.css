@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +6,36 @@
 /* div{
   border:1px solid red;
 } */
+@font-face {
+  font-family: Hellix;
+  font-weight: 300;
+  src: url(./assets/Hellix-Thin.ttf) format("ttf");
+}
+@font-face {
+  font-family: Hellix;
+  font-weight: 400;
+  src: url(./assets/Hellix-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: Hellix;
+  font-weight: 500;
+  src: url(./assets/Hellix-Medium.ttf) format("ttf");
+}
+@font-face {
+  font-family: Hellix;
+  font-weight: 600;
+  src: url(./assets/Hellix-SemiBold.ttf) format("ttf");
+}
+@font-face {
+  font-family: Hellix;
+  font-weight: 700;
+  src: url(./assets/Hellix-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: Hellix;
+  font-weight: 800;
+  src: url(./assets/Hellix-Black.ttf) format("ttf");
+}
 
 html{
   scroll-behavior: smooth;
@@ -18,4 +49,22 @@ html::-webkit-scrollbar{
 html{
   scrollbar-width: 0px;
   -ms-scrollbar-width: 0px;
+}
+
+body{
+  overflow: hidden;
+}
+
+.showpopup{
+  opacity: 1;
+  visibility: visible;
+  transform:  translateY(0px);
+  transition: all 1.5s ease-in-out;
+}
+
+.noshowpopup {
+  opacity: 0;
+  visibility: hidden;
+  transform:  translateY(1000px);
+  transition: all 1.5s ease-in-out;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from '../../containers/HeroSection'
+import HeroSection from '../../containers/landingPage/HeroSection'
 
 const Landing = () => {
   return (
