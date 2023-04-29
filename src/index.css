@@ -51,9 +51,9 @@ html{
   -ms-scrollbar-width: 0px;
 }
 
-body{
+/* body{
   overflow: hidden;
-}
+} */
 
 .showpopup{
   opacity: 1;
