@@ -2,6 +2,7 @@ import React from "react";
 import video from "../assets/video.mp4";
 import Button from "../components/Button";
 import arrow from '../assets/arrow.png'
+import video1 from '../assets/video.webp'
 const HeroSection = () => {
   return (
     <section className="h-full w-screen min-h-screen max-w-screen-2xl mx-auto relative bg-black flex items-center justify-center">
@@ -13,6 +14,8 @@ const HeroSection = () => {
           muted
           loop
           autoPlay
+          playsInline
+          placeholder={video1}
           controls=""
         />
       </div>
