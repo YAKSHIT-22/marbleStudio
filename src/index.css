@@ -68,3 +68,7 @@ html{
   transform:  translateY(1000px);
   transition: all 1.5s ease-in-out;
 }
+
+body{
+  background-color: black;
+}
